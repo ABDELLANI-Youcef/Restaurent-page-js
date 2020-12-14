@@ -8,8 +8,8 @@ const meals = [
   'Traditional Naili meals;',
   'Traditional Algerian meals;',
   'Fast food;',
-  'Differents juices;',
-  'Differents soups.',
+  'Different juices;',
+  'Different soups.',
 ];
 
 const ulist = document.createElement('ul');

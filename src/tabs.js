@@ -1,7 +1,7 @@
 const tabs = document.createElement('div');
 
 const switchTab = (e, divId) => {
-  const tabList = document.querySelectorAll('.tabContent');
+  const tabList = document.querySelectorAll('.tabcontent');
   const active = document.querySelector('button.active');
   active.classList.toggle('active');
   e.target.classList.toggle('active');

@@ -17,7 +17,7 @@ content.appendChild(title);
 
 // paragraph1
 const paragraph1 = document.createElement('p');
-paragraph1.textContent = ' Hello every body. Welcome in our restaurant page. Here we make our possible to make satisfied about the meal and the good treatment.';
+paragraph1.textContent = ' Hello every body. Welcome in our restaurant page. Here we make our possible to make you satisfied about the meal and the good treatment.';
 content.appendChild(paragraph1);
 
 content.appendChild(tabs);
@@ -26,5 +26,5 @@ content.appendChild(contact);
 
 // paragraph3
 const paragraph3 = document.createElement('p');
-paragraph3.textContent = 'You are welcome in our world any time. We make special offers for holiday and paties.';
+paragraph3.textContent = 'You are welcome in our world any time. We make special offers for holidays and parties.';
 content.appendChild(paragraph3);

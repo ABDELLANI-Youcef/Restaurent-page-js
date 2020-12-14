@@ -1,3 +1,22 @@
+body {
+  background-color: #e1d4af;
+  font-size: 20px;
+  font-family: "roboto", sans-serif;
+}
+
+img {
+  border-radius: 10px;
+  border: 5px solid black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 50%;
+}
+
+h1 {
+  text-align: center;
+}
+
 .tab {
   overflow: hidden;
   border: 1px solid #ccc;
@@ -19,11 +38,13 @@
 }
 
 .tab button.active {
-  background-color: #ccc;
+  background-color: #f7840b;
+  font-weight: bolder;
 }
 
 .tabcontent {
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
+  background-color: #acfab0;
 }
