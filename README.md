@@ -1,37 +1,51 @@
-## Welcome to GitHub Pages
+# Restaurant page application with JS
 
-You can use the [editor on GitHub](https://github.com/ABDELLANI-Youcef/Restaurent-page-js/edit/building-branch/README.md) to maintain and preview the content for your website in Markdown files.
+## About
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+In this application, we created a Library Restaurant page that show list of meals and contacts
+We used:
 
-### Markdown
+- Javascript
+- DOM
+- Npm
+- Webpack
+- Html/css
+- Linters ( eslint and stylelint)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Getting started (Development)
 
-```markdown
-Syntax highlighted code block
+To get a local copy of the repository please run the following commands on your terminal:
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+$ git clone git@github.com:ABDELLANI-Youcef/Restaurent-page-js.git
+$ cd Restaurent-page-js
+$ git checkout development
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Author
 
-### Jekyll Themes
+**Youcef Abdellani**
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ABDELLANI-Youcef/Restaurent-page-js/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+- Github: [@ABDELLANI-Youcef](https://github.com/ABDELLANI-Youcef)
+- LinkedIn:[LinkedIn](linkedin.com/in/youcef-abdellani)
+- Twitter:[@YoucefAbdellani](https://twitter.com/YoucefAbdellani)
 
-### Support or Contact
+## 🤝 Contributing
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Contributions, issues and feature requests are welcome!
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- [Odin Project](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page)
+- Hat tip to [stackoverflow](https://stackoverflow.com) community.
+- Hat tip to [Microverse](https://www.microverse.org/) TSE for Code Review
+- Hat tip to anyone whose code was used
+
+## 📝 License
+
+All source codeis available jointly under the MIT License.
+See [MIT licence]() for details.
