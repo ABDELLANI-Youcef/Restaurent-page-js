@@ -6,14 +6,13 @@ const switchTab = (e, divId) => {
   active.classList.toggle('active');
   e.target.classList.toggle('active');
 
-  for (let i = 0; i < tabList.length; i += 1) {
-    const element = tabList[i];
+  tabList.forEach((element) => {
     if (element.getAttribute('id') === divId) {
       element.style.display = 'block';
     } else {
       element.style.display = 'none';
     }
-  }
+  });
 };
 
 const button1 = document.createElement('button');

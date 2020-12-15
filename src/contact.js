@@ -11,12 +11,13 @@ const contacts = [
   'official site: youcefrestaurant.dz',
 ];
 
-const ulist = document.createElement('ul');
-for (let i = 0; i < contacts.length; i += 1) {
+const ulist = contacts.reduce((ulist, element) => {
   const item = document.createElement('li');
-  item.textContent = contacts[i];
+  item.textContent = element;
   ulist.appendChild(item);
-}
+  return ulist;
+}, document.createElement('ul'));
+
 contact.appendChild(ulist);
 contact.setAttribute('id', 'contact');
 contact.classList.add('tabcontent');

@@ -6,18 +6,21 @@ menu.appendChild(paragraph);
 // list of meals
 const meals = [
   'Traditional Naili meals;',
-  'Traditional Algerian meals;',
+  'Amazing Traditional Algerian meals;',
   'Fast food;',
   'Different juices;',
   'Different soups.',
 ];
 
-const ulist = document.createElement('ul');
-for (let i = 0; i < meals.length; i += 1) {
+
+const ulist = meals.reduce((ulist, element) => {
   const item = document.createElement('li');
-  item.textContent = meals[i];
+  item.textContent = element;
   ulist.appendChild(item);
-}
+  return ulist;
+}, document.createElement('ul'));
+
+
 menu.appendChild(ulist);
 menu.classList.add('tabcontent');
 
