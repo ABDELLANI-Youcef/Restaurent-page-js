@@ -1,0 +1,30 @@
+import tabs from './tabs';
+import menu from './menu';
+import contact from './contact';
+import restImage from './restaurant.jpg';
+import './style.css';
+
+const content = document.querySelector('#content');
+// Restaurant image
+const myImage = new Image();
+myImage.src = restImage;
+content.appendChild(myImage);
+
+// Header
+const title = document.createElement('h1');
+title.textContent = "Youcef's Restaurant";
+content.appendChild(title);
+
+// paragraph1
+const paragraph1 = document.createElement('p');
+paragraph1.textContent = ' Hello every body. Welcome in our restaurant page. Here we make our possible to make you satisfied about the meal and the good treatment.';
+content.appendChild(paragraph1);
+
+content.appendChild(tabs);
+content.appendChild(menu);
+content.appendChild(contact);
+
+// paragraph3
+const paragraph3 = document.createElement('p');
+paragraph3.textContent = 'You are welcome in our world any time. We make special offers for holidays and parties.';
+content.appendChild(paragraph3);
