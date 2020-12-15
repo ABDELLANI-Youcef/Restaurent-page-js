@@ -11,6 +11,8 @@ We used:
 - Webpack
 - Html/css
 - Linters ( eslint and stylelint)
+## Live Demo
+[Live demo](https://youcef.abdellani.dev/Restaurent-page-js/)
 
 ## Getting started (Development)
 
